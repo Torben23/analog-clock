@@ -9,8 +9,9 @@
   justify-content: space-evenly;
   align-items: center;
   height: 100vh;
-  flex-direction: column;
+  flex-direction: row;
   margin: 20px;
+  flex-wrap: nowrap;
 }
 
 .date {
@@ -89,5 +90,6 @@ input:checked + .slider:before {
     align-items: center;
     height: 100vh;
     flex-direction: column;
+    flex-wrap: nowrap;
   }
 }
